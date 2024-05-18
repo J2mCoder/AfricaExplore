@@ -15,7 +15,7 @@ Ce projet est un explorateur de pays africains que j'ai réalisé en suivant mes
 
 Pour installer le projet, exécutez les commandes suivantes : npm install
 
-1. Clonez le dépôt en utilisant la commande suivante : `git clone https://github.com/jeandedieu/countries.git`
+1. Clonez le dépôt en utilisant la commande suivante : `https://github.com/J2mCoder/AfricaExplore.git`
 2. Installez les dépendances en utilisant la commande suivante : `npm install`
 3. Démarrez le serveur de développement en utilisant la commande suivante : `npm run dev`
 
