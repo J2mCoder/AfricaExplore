@@ -47,10 +47,17 @@ export default function InfoCountries({ data = {}, Modal, changeState }) {
                   </ul>
                 </div>
               </details>
-              <h2 className="text-lg font-bold">Capitale : {data.capital}</h2>
-              <h2 className="text-lg font-bold">Capitale : {data.capital}</h2>
-              <h2 className="text-lg font-bold">Capitale : {data.capital}</h2>
-              <h2 className="text-lg font-bold">Capitale : {data.capital}</h2>
+              <p className="text-lg font-bold">
+                Time zones : {data.timezones[0]}
+              </p>
+              <p className="text-lg font-bold">Région : {data.subregion}</p>
+              <div className="text-lg font-bold">
+                Capitale :{" "}
+                <ul>
+                  <li>Citoyen : {data.demonyms.fra.m}</li>
+                  <li>Citoyenne : {data.demonyms.fra.f}</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -60,9 +67,7 @@ export default function InfoCountries({ data = {}, Modal, changeState }) {
 }
 
 function formaterPopulation(nombre) {
-  // Formate le nombre selon les conventions de la langue française
   let nombreFormate = new Intl.NumberFormat("fr-FR").format(nombre)
-  // Ajoute 'habitants' pour indiquer qu'il s'agit de la population
   return nombreFormate + " habitants"
 }
 
