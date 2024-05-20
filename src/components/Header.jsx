@@ -14,11 +14,11 @@ export default function Header({ onSearch }) {
         </h1>
 
         <p
-          className="text-md mt-6 text-gray-300 "
+          className="text-md mt-6 text-gray-300 text-center"
           data-aos="zoom-in"
           data-aos-delay="400">
           {
-            "Découvrez les merveilles du continent africain avec notre Explorateur de Pays Africains. Parcourez une liste complète des nations, triées par ordre alphabétique, et plongez dans la richesse culturelle et géographique de chaque pays. De l'Algérie au Zimbabwe, chaque pays révèle ses secrets à travers des données détaillées sur sa population, sa capitale, ses langues et bien plus encore. Préparez-vous à une aventure éducative à travers l'Afrique sans quitter le confort de votre foyer."
+            "Découvrez notre Explorateur des Pays Africains, une application qui vous permet d'explorer les merveilles de chaque pays africain. Parcourez une liste de nations triées par ordre alphabétique et embarquez pour un voyage éducatif à travers l'Afrique. Plongez dans la richesse culturelle, géographique et démographique de chaque pays. De l'Algérie au Zimbabwe, chaque pays vous offre des informations détaillées sur sa population, sa capitale, ses langues et bien plus encore. Explorez le continent sans quitter votre domicile !"
           }
         </p>
         <div className="mt-6 flex justify-center items-center gap-3 w-full md:w-1/2 flex-col sm:flex-row relative">
